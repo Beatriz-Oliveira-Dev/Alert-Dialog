@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/notification_sucess_background">
+
+    <TextView
+        android:id="@+id/textView_foto_carregada"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:text="Foto carregada com sucesso"
+        android:textColor="@color/white"/>
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignTop="@+id/textView_foto_carregada"
+        android:layout_alignBottom="@+id/textView_foto_carregada"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="-6dp"
+        android:layout_marginBottom="-5dp"
+        android:layout_toEndOf="@+id/textView_foto_carregada"
+        android:background=""
+        app:srcCompat="@drawable/ic_close_foreground" />
+
+
+</RelativeLayout>
